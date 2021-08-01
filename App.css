@@ -1,0 +1,113 @@
+body{
+  background-color: #c09e4085;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.footnote{
+ color: black;
+ background-color: darkslategrey;
+}
+
+.stopwatch{
+  height: 25px;
+  background-color:white;
+}
+.todo_button{
+  text-align: center;
+  background-color:transparent;
+  color:black;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  border:none;
+  margin-bottom: 5px;
+  background-image: url(./images/add_btn_svg.svg);
+
+}
+.todo_button:hover{
+  background-color:transparent;
+  height: 24px;
+  width: 24px;
+  position:absolute;
+}
+
+.todo-item{
+  height:24px;
+  width: 250px;
+  background-color: #f5f5f5;
+  text-align: left;
+  justify-content: center;
+}
+
+.complete_btn{
+  background-color: transparent;
+  background-image: url(./images/check_svg.svg);
+  height: 24px;
+  width: 22px;
+  border: none;
+
+
+}
+.complete_btn:hover{
+  border: none;
+  width: 28px;
+  height: 30px;
+  transition: 20ms;
+}
+.trash_btn{
+  background-color:transparent;
+  align-items: center;
+  height: 20px;
+  border:none;
+  width: 20px;
+  background-image: url(./images/trash_can_svg.svg);
+
+}
+.trash_btn:hover{
+  height: 24px;
+  width: 24px;
+
+}
+
+.completed{
+  text-decoration: line-through;
+  opacity: 0.3;
+}
